@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мультимедийное пособие</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gradient-to-b from-white to-gray-100 text-gray-800 font-sans">
+  <header class="bg-white shadow-md p-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      <h1 class="text-3xl font-bold text-indigo-600">Мультимедийное пособие</h1>
+      <nav class="mt-4 md:mt-0">
+        <ul class="flex flex-wrap gap-4 text-indigo-500 font-medium">
+          <li><a href="index.html" class="hover:text-indigo-700 text-indigo-700 font-bold">Главная</a></li>
+          <li><a href="design.html" class="hover:text-indigo-700">Графический дизайн</a></li>
+          <li><a href="multimedia.php" class="hover:text-indigo-700">Мультимедиа</a></li>
+          <li><a href="tests.php" class="hover:text-indigo-700">Тесты</a></li>
+          <li><a href="resources.php" class="hover:text-indigo-700">Ресурсы</a></li>
+          <li><a href="about.php" class="hover:text-indigo-700 ">О проекте</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main class="flex-1 px-6 py-10 max-w-5xl mx-auto space-y-12">
+  <!-- Герой-секция -->
+  <section class="text-center">
+    <h2 class="text-4xl font-bold text-indigo-700 mb-6">Открой мир мультимедиа и дизайна</h2>
+    <p class="text-xl leading-relaxed max-w-3xl mx-auto">Добро пожаловать в "Мультимедийное пособие" — ваш путеводитель в мир визуального творчества! Здесь вы найдёте всё, чтобы начать создавать потрясающие проекты: от основ графического дизайна до секретов мультимедийного контента.</p>
+    <a href="design.html" class="inline-block mt-6 bg-indigo-600 text-white py-3 px-6 rounded-full hover:bg-indigo-700 transition duration-300">Начать путешествие</a>
+  </section>
+
+  <!-- Почему этот сайт -->
+  <section>
+    <h2 class="text-2xl font-bold mb-6 text-center">Что вы найдёте здесь?</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow-md text-center">
+        <svg class="w-12 h-12 mx-auto mb-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h9M12 4v16m0-16h9m-9 0H3m9 8h9M3 12h2m-2 4h2m-2-8h2"></path>
+        </svg>
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Уроки и руководства</h3>
+        <p class="text-lg">Пошаговые инструкции по дизайну и мультимедиа для новичков и профи.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md text-center">
+        <svg class="w-12 h-12 mx-auto mb-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+        </svg>
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Инструменты</h3>
+        <p class="text-lg">Подборка лучших программ и ресурсов для ваших проектов.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md text-center">
+        <svg class="w-12 h-12 mx-auto mb-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14m0-4v4m-7-7h.01M12 7h.01M9 7h.01M6 7h.01M3 7h.01"></path>
+        </svg>
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Вдохновение</h3>
+        <p class="text-lg">Примеры работ и идеи, чтобы разжечь ваше творчество.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Призыв к действию -->
+  <section class="bg-indigo-100 p-8 rounded-xl shadow-md text-center">
+    <h2 class="text-2xl font-bold text-indigo-700 mb-4">Готовы творить?</h2>
+    <p class="text-lg leading-relaxed max-w-2xl mx-auto">Погрузитесь в мир дизайна и мультимедиа с нашими материалами. Узнайте, как создавать проекты, которые захватывают внимание и вдохновляют!</p>
+    <div class="mt-6 flex justify-center gap-4">
+      <a href="design.html" class="bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">Графический дизайн</a>
+      <a href="multimedia.html" class="bg-indigo-600 text-white py-2 px-6 rounded-full hover:bg-indigo-700 transition duration-300">Мультимедиа</a>
+    </div>
+  </section>
+
+  <!-- Новая секция: Начните прямо сейчас -->
+  <section>
+    <h2 class="text-2xl font-bold mb-6 text-center">Начните прямо сейчас</h2>
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Попробуйте простой дизайн</h3>
+        <p class="text-lg">Возьмите бесплатный инструмент вроде Canva, выберите шаблон и создайте свою первую афишу за 10 минут. Подробности — в разделе 
+          <a href="design.html" class="inline-block bg-indigo-600 text-white py-1 px-3 rounded-full hover:bg-indigo-700 transition duration-300 text-sm font-medium">Графический дизайн</a>.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Снимите своё первое видео</h3>
+        <p class="text-lg">Используйте смартфон и бесплатный редактор (например, CapCut), чтобы смонтировать короткий ролик. Узнайте больше в 
+          <a href="multimedia.html" class="inline-block bg-indigo-600 text-white py-1 px-3 rounded-full hover:bg-indigo-700 transition duration-300 text-sm font-medium">Мультимедиа</a>.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Найдите идеи</h3>
+        <p class="text-lg">Изучите подборку ресурсов и примеров в разделе 
+          <a href="resources.html" class="inline-block bg-indigo-600 text-white py-1 px-3 rounded-full hover:bg-indigo-700 transition duration-300 text-sm font-medium">Ресурсы</a>, чтобы вдохновиться на свой проект.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Футер -->
+<footer class="bg-gray-800 text-gray-300 py-8 mt-auto">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+    <div class="text-center md:text-left">
+      <p class="text-sm">© 2025 <span class="font-semibold text-indigo-400">Мультимедийное пособие</span>. Все права защищены.</p>
+    </div>
+    <div class="text-center">
+      <ul class="flex flex-wrap justify-center gap-6 text-sm">
+        <li><a href="index.html" class="hover:text-indigo-400 transition duration-300">Главная</a></li>
+        <li><a href="design.html" class="hover:text-indigo-400 transition duration-300">Дизайн</a></li>
+        <li><a href="multimedia.html" class="hover:text-indigo-400 transition duration-300">Мультимедиа</a></li>
+        <li><a href="tests.php" class="hover:text-indigo-400 transition duration-300">Тесты</a></li>
+        <li><a href="resources.php" class="hover:text-indigo-400 transition duration-300">Ресурсы</a></li>
+      </ul>
+    </div>
+    <div class="text-center md:text-right">
+      <div class="flex justify-center md:justify-end gap-5">
+        <a href="#" class="text-gray-300 hover:text-indigo-400 transition duration-300">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 5.08 3.76 9.23 8.65 9.91v-7h-2.6v-2.91h2.6v-2.22c0-2.58 1.58-3.98 3.88-3.98.77 0 1.62.14 2.43.41v2.67h-1.36c-1.34 0-1.6.64-1.6 1.57v2.06h2.87l-.46 2.91h-2.41v7c4.89-.68 8.65-4.83 8.65-9.91C22 6.48 17.52 2 12 2z"/>
+          </svg>
+        </a>
+        <a href="#" class="text-gray-300 hover:text-indigo-400 transition duration-300">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5.47 15.24c-.72.52-1.91.76-2.94.36-.88-.34-1.38-1.24-1.81-2.18-.47-1.03-.88-2.11-1.34-3.15-.24-.54-.51-1.06-.83-1.55-.45-.7-1.06-1.25-1.85-1.42-.47-.1-.95-.03-1.38.22-.44.25-.76.67-.76 1.16 0 .62.33 1.18.86 1.53.67.44 1.47.56 2.23.56.34 0 .67-.06 1-.17.56-.19 1.03-.56 1.41-1.03.47-.58.88-1.2 1.28-1.84.33-.53.62-1.08.87-1.65.25-.57.41-1.17.41-1.79 0-.74-.24-1.43-.66-2-.47-.64-1.19-1.06-2-1.06-.47 0-.94.11-1.38.33-.47.24-.88.61-1.19 1.03-.25.35-.44.74-.56 1.14-.13.43-.19.88-.19 1.33 0 .66.16 1.31.47 1.91.34.66.88 1.23 1.53 1.62.66.39 1.44.59 2.22.59.62 0 1.22-.14 1.78-.41.59-.28 1.09-.72 1.47-1.28.38-.56.62-1.19.72-1.85.09-.58.03-1.16-.19-1.72-.22-.56-.59-1.06-1.06-1.44-.47-.38-1.03-.66-1.62-.81-.59-.15-1.19-.19-1.78-.13-.59.06-1.16.25-1.66.56-.5.31-.91.74-1.22 1.25-.31.5-.5 1.06-.56 1.66-.06.59.03 1.19.25 1.75.22.56.59 1.06 1.06 1.44.47.38 1.03.66 1.62.81.59.15 1.19.19 1.78.13.59-.06 1.16-.25 1.66-.56.5-.31.91-.74 1.22-1.25.31-.5.5-1.06.56-1.66.06-.59-.03-1.19-.25-1.75-.19-.5-.5-.94-.91-1.28z"/>
+          </svg>
+        </a>
+        <a href="#" class="text-gray-300 hover:text-indigo-400 transition duration-300">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm2-8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
